@@ -1,0 +1,20 @@
+{
+  "name": "File-Sharing-App",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Abhavya28/File-Sharing-App-0025.git",
+  "author": "Abhavya28 <abhavya2801@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "serve": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
