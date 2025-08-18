@@ -13,21 +13,16 @@ router.get("/:uuid", async (req, res) => {
         }
 
         const filePath = `${__dirname}/../${file.path}`;
+
         res.download(filePath, file.filename, (err) => {
             if (err) {
                 return res.render("download", { error: "Something went wrong." });
             }
         });
         
-        
-        
     } catch (err) {
         return res.render("download", { error: "Something went wrong." });
     }
 })
-
-
-
-
 
 module.exports = router;
