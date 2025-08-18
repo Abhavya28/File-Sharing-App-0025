@@ -5,18 +5,18 @@
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Download | InShare - File Sharing Made Easy</title>
+    <title>File Share</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
-    <img src="" alt="logo" class="logo">
+    <img src="/img/logo.jpeg" alt="logo" class="logo">
 
     <section class="download">
         <img class="download__icon" src="/img/download.svg" alt="download">
         <% if(locals.error){ %>
             <h4>
-                <%= locals.error %> 😏
+                <%= locals.error %> 
             </h4>
             <% } else { %>
                 <h2>Your file is ready to download</h2>
