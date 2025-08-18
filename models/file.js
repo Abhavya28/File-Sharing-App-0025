@@ -1,4 +1,4 @@
-const moongose = require('mongoose');
+const mongoose = require('mongoose');
 const Schema = moongose.Schema;
 
 const fileSchema = new Schema({
