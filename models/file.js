@@ -2,8 +2,6 @@ const mongoose = require('mongoose');
 
 const Schema = mongoose.Schema;
 
-const Schema = moongose.Schema;
-
 
 const fileSchema = new Schema({
     filename: { type: String, required: true },
